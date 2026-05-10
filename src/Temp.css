@@ -1,0 +1,178 @@
+body {
+    background-color: rgba(190, 18, 18, 0.345);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* padding: 2%; */
+}
+
+.box {
+    width: 100%;
+    display: flex;
+    margin-top: 4%;
+    /* flex-direction: row; */
+    /* justify-content: space-evenly; */
+}
+
+.maina {
+    background-color: beige;
+    width: 40%;
+    padding: 2%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 4%;
+    align-items: center;
+}
+
+.prdt_size div {
+    display: flex;
+    gap: 4%;
+    padding: 0%;
+}
+
+.prdt_size div>h4 {
+    color: red;
+    border: 1px solid black;
+    padding: 3%;
+    margin-top: -1%;
+}
+
+.prdt_size div>h4:hover {
+    background-color: black;
+    color: white;
+}
+
+.prdt_img {
+    width: 100%;
+    height: 36vh;
+}
+
+.product_image {
+    width: 100%;
+}
+
+.about_product {
+    margin-left: 8%;
+    margin-top: -3%;
+    width: 70%;
+}
+
+.about_product>h2 {
+    color: red;
+}
+
+.about_item{
+    margin-top: -1%;
+}
+.price {
+    display: flex;
+    align-items: baseline;
+    gap: 5%;
+    margin-top: -12%;
+}
+
+.color_choice {
+    display: flex;
+    justify-content: space-between;
+    margin-top: -8%;
+}
+
+.color_choice>h5 {
+    border: 1px solid black;
+    padding: 4%;
+}
+
+.add_button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.add_button>button {
+    padding: 3%;
+    width: 100%;
+    font-size: medium;
+    background-color: black;
+    color: white;
+    border: none;
+    font-weight: 700;
+}
+
+.add_button>button:hover {
+    background-color: aqua;
+    color: black;
+}
+
+.about {
+    font-weight: 100;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 90%;
+    margin-top: -2%;
+}
+
+
+.design {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.design>button {
+    margin-top: 3%;
+    padding: 2% 5%;
+    font-weight: bolder;
+    background-color: aqua;
+    border: none;
+}
+
+.design>div {
+    margin-top: 4%;
+}
+
+
+
+/* css for form */
+
+
+
+.form {
+    width: 800px;
+    border-radius: 15px;
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    align-items: center;
+    padding: 5%;
+    margin-top: 5%;
+    background-color: rgba(46, 31, 210, 0.834);
+    color: white;
+}
+
+.form>div {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 2%;
+}
+
+.form>div>input {
+    padding: 1%;
+}
+
+.form>button {
+    width: 100%;
+    padding: 2%;
+    margin-top: 3%;
+    font-weight: bolder;
+    font-size: medium;
+    border: none;
+}
+
+.form>button:hover {
+    background-color: rgb(0, 247, 255);
+    color: black;
+}
